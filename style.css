@@ -76,3 +76,24 @@ footer {
 hr {
   border: 1px solid black;
 }
+.flex-container {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.flex-container > h1, nav {
+  flex: 1;
+}
+.center {
+  text-align: center;
+}
+.align-left {
+  text-align: left;
+}
+section p {
+  font-size: 14px;
+}
